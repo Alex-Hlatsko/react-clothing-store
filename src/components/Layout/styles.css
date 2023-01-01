@@ -1,0 +1,14 @@
+/* .layout{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    grid-template-rows: 1rem 1fr 1rem;
+    grid-template-areas: "navbar header" "navbar outlet" "footer footer";
+} */
+.layout{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
