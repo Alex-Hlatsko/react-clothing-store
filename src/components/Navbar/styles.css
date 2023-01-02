@@ -16,9 +16,30 @@
 .navbar .navbar_item:hover{
     color: #BF5159;
 }
+img.logo{
+    width: 3rem;
+}
 span.logo{
     font-size: 1.4rem;
 }
 span.logo:hover{
     color: #BF5159;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar_none{
+        display: none;
+    }
+    .navbar{
+        top: 2rem;
+        width: 100%;
+        height: 90vh;
+        z-index: 85;
+    }
+    .navbar .navbar_item{
+        font-size: 1.5rem;
+    }
+    img.logo{
+        width: 2.5rem;
+    }
 }

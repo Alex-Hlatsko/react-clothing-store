@@ -1,5 +1,5 @@
 .footer{
-    position: absolute;
+    position: fixed;
     z-index: 100;
     bottom: 0;
     left: 0;
@@ -10,4 +10,5 @@
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
+    text-align: center;
 }

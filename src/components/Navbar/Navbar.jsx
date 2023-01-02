@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='navbar flex flex-col items-center'>
+    <div className='navbar navbar_none flex flex-col items-center'>
       <div className="logo">
         <NavLink className="mb-8 flex items-center">
-          <img src="" alt="logo" />
+          <img className='logo mr-2' src="./img/logo.png" alt="logo" />
           <span className='logo'>Clothing</span>
         </NavLink>
       </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
       <NavLink className="navbar_item" to='/t-shirts'>T-shirts</NavLink>
       <NavLink className="navbar_item" to='/shoes'>Shoes</NavLink>
       <NavLink className="navbar_item" to='/about'>About</NavLink>
-      <NavLink className="navbar_item" to='/shoes'>Contact</NavLink>
+      <NavLink className="navbar_item" to='/contact'>Contact</NavLink>
     </div>
   )
 }
