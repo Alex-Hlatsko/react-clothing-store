@@ -1,0 +1,41 @@
+.product{
+    position: relative;
+    margin: 1rem;
+    width: 15rem;
+    height: 21rem;
+    border: 2px solid #333335;
+    border-radius: 4px;
+}
+.product .product_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 14rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product .product_content{
+    padding: 0 0.5rem;
+    position: absolute;
+    top: 14rem;
+    left: 0;
+    z-index: 12;
+    width: 100%;
+}
+.btn{
+    padding: 0.2rem 1rem;
+    background-color: #BF5159;
+}
+.btn:hover{
+    background-color: #bf8851;
+}
+.btn_det{
+    padding: 0.2rem 0.5rem;
+    border: 2px solid #454547;
+}
+.btn_det:hover{
+    background-color: #454547;
+}

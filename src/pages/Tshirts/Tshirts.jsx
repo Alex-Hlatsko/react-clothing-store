@@ -1,7 +1,8 @@
 import React from 'react'
 import Section from '../../components/Section/Section'
+import Product from '../../components/Product/Product'
 
-const Tshirts = () => {
+const Tshirts = ({data}) => {
   const dataSection = {
     title : "Meet by clothes",
     subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam hic non voluptate aliquid unde, corporis cupiditate nisi aperiam praesentium? Nisi.",
@@ -11,7 +12,9 @@ const Tshirts = () => {
   return (
     <div className='outlet'>
       <Section data={dataSection}/>
-      Tshirts
+      <div className="products">
+        {data?.map(d => (<Product key={d.id} data={d}/>))}
+      </div>
     </div>
   )
 }

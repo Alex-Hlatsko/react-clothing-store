@@ -1,0 +1,11 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+@media only screen and (max-width: 600px) {
+    .products{
+        padding-top: 80vh;
+    }
+}

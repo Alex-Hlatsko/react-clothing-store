@@ -1,7 +1,9 @@
 import React from 'react'
+import './styles.css'
 import Section from '../../components/Section/Section'
+import Product from '../../components/Product/Product';
 
-const Hoodies = () => {
+const Hoodies = ({data}) => {
   const dataSection = {
     title : "Meet by clothes",
     subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam hic non voluptate aliquid unde, corporis cupiditate nisi aperiam praesentium? Nisi.",
@@ -11,7 +13,9 @@ const Hoodies = () => {
   return (
     <div className='outlet'>
       <Section data={dataSection}/>
-      Hoodies
+      <div className="products">
+        {data?.map(d => (<Product key={d.id} data={d}/>))}
+      </div>
     </div>
   )
 }
