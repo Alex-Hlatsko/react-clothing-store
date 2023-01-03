@@ -1,0 +1,32 @@
+{
+    "hoodies":[
+        {
+            "id": "12424",
+            "title": "Black hoodie panther",
+            "size": "M",
+            "price" : "320",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": ""
+        }
+    ],
+    "shoes":[
+        {
+            "id": "12424",
+            "title": "White lava",
+            "size": "8.5",
+            "price" : "120",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": ""
+        }
+    ],
+    "tshirt":[
+        {
+            "id": "12424",
+            "title": "Black hole",
+            "size": "S",
+            "price" : "30",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": ""
+        }
+    ]
+}
