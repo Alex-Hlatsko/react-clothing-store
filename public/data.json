@@ -6,7 +6,47 @@
             "size": "M",
             "price" : "320",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/Alex-Hlatsko/react-clothing-store/main/public/img/hoodie/hoodie1.png"
+        },
+        {
+            "id": "543234",
+            "title": "Black hoodie panther",
+            "size": "M",
+            "price" : "320",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://raw.githubusercontent.com/Alex-Hlatsko/react-clothing-store/main/public/img/hoodie/hoodie2.png"
+        },
+        {
+            "id": "12323",
+            "title": "Black hoodie panther",
+            "size": "M",
+            "price" : "320",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://raw.githubusercontent.com/Alex-Hlatsko/react-clothing-store/main/public/img/hoodie/hoodie3.png"
+        },
+        {
+            "id": "88789",
+            "title": "Black hoodie panther",
+            "size": "M",
+            "price" : "320",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://raw.githubusercontent.com/Alex-Hlatsko/react-clothing-store/main/public/img/hoodie/hoodie4.png"
+        },
+        {
+            "id": "875684",
+            "title": "Black hoodie panther",
+            "size": "M",
+            "price" : "320",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://raw.githubusercontent.com/Alex-Hlatsko/react-clothing-store/main/public/img/hoodie/hoodie5.png"
+        },
+        {
+            "id": "5567643",
+            "title": "Black hoodie panther",
+            "size": "M",
+            "price" : "320",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://raw.githubusercontent.com/Alex-Hlatsko/react-clothing-store/main/public/img/hoodie/hoodie6.png"
         }
     ],
     "shoes":[
@@ -16,7 +56,31 @@
             "size": "8.5",
             "price" : "120",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
-            "image": ""
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/shoes/shoes1.png?raw=true"
+        },
+        {
+            "id": "634321",
+            "title": "White lava",
+            "size": "8.5",
+            "price" : "120",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/shoes/shoes2.png?raw=true"
+        },
+        {
+            "id": "123456",
+            "title": "White lava",
+            "size": "8.5",
+            "price" : "120",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/shoes/shoes3.png?raw=true"
+        },
+        {
+            "id": "65432",
+            "title": "White lava",
+            "size": "8.5",
+            "price" : "120",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/shoes/shoes4.png?raw=true"
         }
     ],
     "tshirt":[
@@ -26,7 +90,31 @@
             "size": "S",
             "price" : "30",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
-            "image": ""
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/tshirts/tshirt1.png?raw=true"
+        },
+        {
+            "id": "543234",
+            "title": "Black hole",
+            "size": "S",
+            "price" : "30",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/tshirts/tshirt2.png?raw=true"
+        },
+        {
+            "id": "2312",
+            "title": "Black hole",
+            "size": "S",
+            "price" : "30",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/tshirts/tshirt3.png?raw=true"
+        },
+        {
+            "id": "5432",
+            "title": "Black hole",
+            "size": "S",
+            "price" : "30",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius dolorem, quasi, sequi unde consectetur corrupti nostrum cupiditate nulla nihil facilis, aliquid ipsum ipsam vel qui suscipit voluptatum rerum quibusdam eum repellat.",
+            "image": "https://github.com/Alex-Hlatsko/react-clothing-store/blob/main/public/img/tshirts/tshirt4.png?raw=true"
         }
     ]
 }
