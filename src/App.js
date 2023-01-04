@@ -48,9 +48,13 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
 
-          {/* Other routes */}
-          <Route path='/product/:id' element={<Product/>}/>
-          <Route path='/cart' element={<Cart/>}/>
+          {/* Routes to product */}
+          <Route path='/hoodie/product/:id' element={<Product data={dataHoodies}/>}/>
+          <Route path='/t-shirts/product/:id' element={<Product data={dataTshirts}/>}/>
+          <Route path='/shoes/product/:id' element={<Product data={dataShoes}/>}/>
+
+          {/* Route to cart */}
+          <Route path='/cart' element={<Cart data={data}/>}/>
         </Route>
       </Routes>
     </>

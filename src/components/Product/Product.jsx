@@ -14,7 +14,7 @@ const Product = ({data}) => {
             </div>
             <div className="product_btns flex justify-between mt-3">
                 <span className='btn'>Buy</span>
-                <Link to={`/product/${data.id}`} className='btn_det'>Details</Link>
+                <Link to={`./product/${data.id}`} className='btn_det'>Details</Link>
             </div>
         </div>
     </div>
