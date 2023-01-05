@@ -54,7 +54,7 @@ function App() {
           <Route path='/shoes/product/:id' element={<Product data={dataShoes}/>}/>
 
           {/* Route to cart */}
-          <Route path='/cart' element={<Cart data={data}/>}/>
+          <Route path='/cart' element={<Cart/>}/>
         </Route>
       </Routes>
     </>
