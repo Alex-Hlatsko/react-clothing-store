@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { MdOutlineClose } from 'react-icons/md'
 import { HiMenuAlt2 } from 'react-icons/hi'
 import './styles.css'
 
-const Header = () => {
+const Header = ({products}) => {
   const [menuState, setMenuState] = useState(false);
   return (
     <>
@@ -15,7 +15,10 @@ const Header = () => {
         <Link to='/'><span className='logo'>Clothing</span></Link>
       </div>
       <div className="flex">
-        <Link to='/cart'><AiOutlineShoppingCart size={28}/></Link>
+        <Link className='cart' to='/cart'>
+          <AiOutlineShoppingCart size={28}/>
+          <p className='product_count'>0</p>
+        </Link>
         {menuState ? <MdOutlineClose className='burger ml-5' size={32} onClick={()=>setMenuState((menuState)=>menuState=!menuState)}/>  : <HiMenuAlt2 className='burger ml-5' size={32} onClick={()=>setMenuState((menuState)=>menuState=!menuState)}/>}
       </div>
     </div>

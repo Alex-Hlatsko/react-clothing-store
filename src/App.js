@@ -34,17 +34,46 @@ function App() {
     const dataHoodies = data?.hoodies;
     const dataShoes = data?.shoes;
     const dataTshirts = data?.tshirt;
-    
+
+    const [products, setProducts] = useState([])
+
+
+    const updateProducts = (value) => {
+      const p = []
+      p.push(value)
+    }
+
+    useEffect(()=>{
+      setProducts(updateProducts)
+    })
+
+    console.log(products)
+
+    // const [products, setProducts] = useState([])
+    // const updateProducts = (value) => {
+    //   const p = products
+    //   p.push(value)
+    //   // console.log(p)
+    //   setProducts(p)
+    //   console.log(products)
+    // }
+
+    // const products = []
+    // const updateProducts = (value) => {
+    //   products.push(value)
+    //   console.log(products)
+    // }
+
   return (
     <>
       <Routes>
-        <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<Layout products={products}/>}>
 
           {/* Routes to pages */}
           <Route path='/' element={<Home/>}/>
-          <Route path='/hoodie' element={<Hoodies data={dataHoodies}/>}/>
-          <Route path='/t-shirts' element={<Tshirts data={dataTshirts}/>}/>
-          <Route path='/shoes' element={<Shoes data={dataShoes}/>}/>
+          <Route path='/hoodie' element={<Hoodies data={dataHoodies} updateProducts={updateProducts}/>}/>
+          <Route path='/t-shirts' element={<Tshirts data={dataTshirts} updateProducts={updateProducts}/>}/>
+          <Route path='/shoes' element={<Shoes data={dataShoes} updateProducts={updateProducts}/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
 

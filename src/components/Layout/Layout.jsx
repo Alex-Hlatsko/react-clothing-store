@@ -5,7 +5,8 @@ import Footer from '../Footer/Footer'
 import { Outlet } from 'react-router-dom'
 import './styles.css'
 
-const Layout = () => {
+const Layout = ({products}) => {
+  // console.log(products)
   return (
     <div className='layout'>
       <Header/>
