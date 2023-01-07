@@ -1,11 +1,10 @@
 import React from 'react'
-import {Link, useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import './styles.css'
 
-const Product = ({data}) => {
+const Product = ({data, addProducts}) => {
   const {id} = useParams();
   const p = data?.find(d => d.id === id)
-  const product = [p]
 
   return (
     <div className='outlet'>
@@ -21,7 +20,7 @@ const Product = ({data}) => {
             <p className='font-normal mb-5'><span className='text-zinc-400'>Size:</span> {p?.size}</p>
             <p className='font-normal mb-5'><span className='text-zinc-400'>Price:</span> {p?.price}$</p>
           </div>
-          <Link className='btn' to='../../cart' state={{ data: product }}>Buy</Link>
+          <span className='btn' onClick={() => { addProducts(p)}}>Buy</span>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import { IoIosCloseCircle } from 'react-icons/io'
 import './styles.css'
 
 const cartProduct = ({product, deleteProduct}) => {
-    console.log(product)
+    // console.log(product)
   return (
     <div className='cart_product flex justify-between items-center'>
         <img src={product?.image} alt="img" />

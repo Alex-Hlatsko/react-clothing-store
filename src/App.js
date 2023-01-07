@@ -42,6 +42,8 @@ function App() {
     
     const deleteProduct = (id) =>{
       // setProducts(products.filter(p => p.id !== id))
+      const p = [...products]
+      setProducts(p.filter(p => p.id !== id))
     } 
   return (
     <>
@@ -57,12 +59,12 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
 
           {/* Routes to product */}
-          <Route path='/hoodie/product/:id' element={<Product data={dataHoodies}/>}/>
-          <Route path='/t-shirts/product/:id' element={<Product data={dataTshirts}/>}/>
-          <Route path='/shoes/product/:id' element={<Product data={dataShoes}/>}/>
+          <Route path='/hoodie/product/:id' element={<Product data={dataHoodies} addProducts={addProducts}/>}/>
+          <Route path='/t-shirts/product/:id' element={<Product data={dataTshirts} addProducts={addProducts}/>}/>
+          <Route path='/shoes/product/:id' element={<Product data={dataShoes} addProducts={addProducts}/>}/>
 
           {/* Route to cart */}
-          <Route path='/cart' element={<Cart deleteProduct={deleteProduct}/>}/>
+          <Route path='/cart' element={<Cart products={products} deleteProduct={deleteProduct}/>}/>
         </Route>
       </Routes>
     </>
