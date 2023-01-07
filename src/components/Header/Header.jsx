@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { MdOutlineClose } from 'react-icons/md'
@@ -15,9 +15,9 @@ const Header = ({products}) => {
         <Link to='/'><span className='logo'>Clothing</span></Link>
       </div>
       <div className="flex">
-        <Link className='cart' to='/cart'>
+        <Link className='cart' to='/cart' state={{ data: products }}>
           <AiOutlineShoppingCart size={28}/>
-          <p className='product_count'>0</p>
+          <p className='product_count'>{products.length}</p>
         </Link>
         {menuState ? <MdOutlineClose className='burger ml-5' size={32} onClick={()=>setMenuState((menuState)=>menuState=!menuState)}/>  : <HiMenuAlt2 className='burger ml-5' size={32} onClick={()=>setMenuState((menuState)=>menuState=!menuState)}/>}
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
 
-const Product = ({data, updateProducts}) => {
+const Product = ({data, addProducts}) => {
   return (
     <div className='product'>
         <div className="product_img" style={{backgroundImage: `url(${data.image})`}} />
@@ -13,7 +13,7 @@ const Product = ({data, updateProducts}) => {
                 <p className="product_price"><span className='text-zinc-400'>Price:</span> {data.price}$</p> 
             </div>
             <div className="product_btns flex justify-between mt-3">
-                <span className='btn' onClick={() => { updateProducts(data)}}>Buy</span>
+                <span className='btn' onClick={() => { addProducts(data)}}>Buy</span>
                 <Link to={`./product/${data.id}`} className='btn_det'>Details</Link>
             </div>
         </div>

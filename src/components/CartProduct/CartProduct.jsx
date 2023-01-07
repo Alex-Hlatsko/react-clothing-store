@@ -2,7 +2,7 @@ import React from 'react'
 import { IoIosCloseCircle } from 'react-icons/io'
 import './styles.css'
 
-const cartProduct = ({product}) => {
+const cartProduct = ({product, deleteProduct}) => {
     console.log(product)
   return (
     <div className='cart_product flex justify-between items-center'>
@@ -12,7 +12,7 @@ const cartProduct = ({product}) => {
             <p className='cart_product_subtitle'><span className='text-zinc-400'>Size:</span> {product?.size}</p>
         </div>
         <p className='cart_product_subtitle'>{product?.price}$</p>
-        <IoIosCloseCircle className='btn_close' size={28}/>
+        <IoIosCloseCircle className='btn_close' size={28} onClick={() => {deleteProduct(product.id)}}/>
     </div>
   )
 }

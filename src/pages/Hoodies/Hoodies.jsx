@@ -1,9 +1,9 @@
 import React from 'react'
-import './styles.css'
 import Section from '../../components/Section/Section'
 import Product from '../../components/Product/Product';
+import './styles.css'
 
-const Hoodies = ({data, updateProducts}) => {
+const Hoodies = ({data, addProducts}) => {
   const dataSection = {
     title : "Meet by clothes",
     subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam hic non voluptate aliquid unde, corporis cupiditate nisi aperiam praesentium? Nisi.",
@@ -14,7 +14,7 @@ const Hoodies = ({data, updateProducts}) => {
     <div className='outlet'>
       <Section data={dataSection}/>
       <div className="products">
-        {data?.map(d => (<Product key={d.id} data={d} updateProducts={updateProducts}/>))}
+        {data?.map(d => (<Product key={d.id} data={d} addProducts={addProducts}/>))}
       </div>
     </div>
   )

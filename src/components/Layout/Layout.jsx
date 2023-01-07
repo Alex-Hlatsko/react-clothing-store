@@ -6,10 +6,10 @@ import { Outlet } from 'react-router-dom'
 import './styles.css'
 
 const Layout = ({products}) => {
-  // console.log(products)
+  console.log(products)
   return (
     <div className='layout'>
-      <Header/>
+      <Header products={products}/>
       <Navbar/>
       <Outlet/>
       <Footer/>
