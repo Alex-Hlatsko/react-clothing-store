@@ -13,6 +13,9 @@
     margin: 0.8rem 0;
     font-size: 1.2rem;
 }
+.navbar .navbar_item.active{
+    color: #BF5159;
+}
 .navbar .navbar_item:hover{
     color: #BF5159;
 }

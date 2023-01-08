@@ -5,7 +5,7 @@ import './styles.css'
 
 const Hoodies = ({data, addProducts}) => {
   const dataSection = {
-    title : "Meet by clothes",
+    title : "Hoodies",
     subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam hic non voluptate aliquid unde, corporis cupiditate nisi aperiam praesentium? Nisi.",
     img : "./img/hoodies.jpg",
   }

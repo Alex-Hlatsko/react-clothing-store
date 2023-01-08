@@ -1,0 +1,26 @@
+.catalog{
+    position: relative;
+    width: 18rem;
+    height: 14rem;
+    margin: 0.5rem 1rem;
+}
+.catalog_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+.catalog_content{
+    padding: 0.5rem;
+    position: absolute;
+    z-index: 12;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

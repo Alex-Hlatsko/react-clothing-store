@@ -4,7 +4,7 @@ import Product from '../../components/Product/Product'
 
 const Tshirts = ({data, addProducts}) => {
   const dataSection = {
-    title : "Meet by clothes",
+    title : "T-shirts",
     subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam hic non voluptate aliquid unde, corporis cupiditate nisi aperiam praesentium? Nisi.",
     img : "./img/tshirts.jpg",
   }

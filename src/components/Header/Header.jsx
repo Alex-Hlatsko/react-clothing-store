@@ -29,7 +29,7 @@ const Header = ({products}) => {
       <NavLink className="navbar_item" onClick={()=>setMenuState((menuState)=>menuState=!menuState)} to='/t-shirts'>T-shirts</NavLink>
       <NavLink className="navbar_item" onClick={()=>setMenuState((menuState)=>menuState=!menuState)} to='/shoes'>Shoes</NavLink>
       <NavLink className="navbar_item" onClick={()=>setMenuState((menuState)=>menuState=!menuState)} to='/about'>About</NavLink>
-      <NavLink className="navbar_item" onClick={()=>setMenuState((menuState)=>menuState=!menuState)} to='/shoes'>Contact</NavLink>
+      <NavLink className="navbar_item" onClick={()=>setMenuState((menuState)=>menuState=!menuState)} to='/contact'>Contact</NavLink>
     </div>}
     </>
   )
